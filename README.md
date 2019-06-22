@@ -21,3 +21,12 @@ sess$run(hello)
 ```
 
 You are good to go!
+
+
+# References
+
+- RStudio Tensorflow documentation
+ - https://tensorflow.rstudio.com/
+- Great introductions about Neural Networks
+ - https://www.youtube.com/watch?v=BR9h47Jtqyw
+- 
