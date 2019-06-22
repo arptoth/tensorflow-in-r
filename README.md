@@ -30,3 +30,6 @@ RStudio Tensorflow documentation
  
 Great introductions about Neural Networks
  - https://www.youtube.com/watch?v=BR9h47Jtqyw
+ 
+Deep Learning Book in R
+- https://www.amazon.com/Deep-Learning-R-Francois-Chollet/dp/161729554X
