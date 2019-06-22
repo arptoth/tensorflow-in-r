@@ -27,5 +27,6 @@ You are good to go!
 
 RStudio Tensorflow documentation
  - https://tensorflow.rstudio.com/
+ 
 Great introductions about Neural Networks
  - https://www.youtube.com/watch?v=BR9h47Jtqyw
