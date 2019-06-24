@@ -30,9 +30,9 @@ RStudio Tensorflow documentation
 
 Great introductions about Neural Networks
 - Luis Serrano
- - https://www.youtube.com/watch?v=BR9h47Jtqyw
+    - https://www.youtube.com/watch?v=BR9h47Jtqyw
 - 3Blue1Brown
- - https://www.youtube.com/watch?v=aircAruvnKk
+    - https://www.youtube.com/watch?v=aircAruvnKk
 
  TensorFlow Estimator example
  - https://tensorflow.rstudio.com/tfestimators/
