@@ -40,7 +40,7 @@ for (step in 1:201) {
     
 }
 
-ggplot(lf, aes(epoch, loss*s)) +geom_point()
+ggplot(lf, aes(epoch, loss)) +geom_point()
 
 
 

@@ -25,13 +25,14 @@ str(y_test)
 
 model <- keras_model_sequential() 
 model %>% 
-  layer_dense(units = 256, activation = 'relu', input_shape = c(784)) %>% 
+  layer_dense(units = 128, activation = 'relu', input_shape = c(784)) %>% 
   layer_dropout(rate = 0.4) %>% 
-  layer_dense(units = 128, activation = 'relu', input_shape = c(784)) %>%
+  layer_dense(units = 64, activation = 'relu', input_shape = c(784)) %>%
   layer_dropout(rate = 0.3) %>%
   layer_dense(units = 10, activation = 'softmax')
 
 model %>% compile(
+  # http://deeplearning.net/software/theano/library/tensor/nnet/nnet.html#theano.tensor.nnet.nnet.categorical_crossentropy
   loss = 'categorical_crossentropy',
   optimizer = optimizer_adam(),
   metrics = c('accuracy')
